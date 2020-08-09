@@ -1,7 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <TargetFrameworks>netstandard2.1;netcoreapp3.1</TargetFrameworks>
+        <LangVersion>8</LangVersion>
+        <Nullable>enable</Nullable>
+        <PackageVersion>0.5.0.1</PackageVersion>
+        <Title>Conway Collection Comparer</Title>
+        <Authors>Chuck Conway</Authors>
+        <Copyright>https://raw.githubusercontent.com/chuckconway/collection-comparer/master/README.md</Copyright>
+        <PackageProjectUrl>https://github.com/chuckconway/collection-comparer</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/chuckconway/collection-comparer/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/chuckconway/collection-comparer.git</RepositoryUrl>
     </PropertyGroup>
 
 </Project>

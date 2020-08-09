@@ -7,19 +7,13 @@ namespace CollectionComparer
     {
         private readonly Func<TType, TType, bool> _comparer;
 
-        public EqualityComparer(Func<TType, TType, bool> comparer)
-        {
-            _comparer = comparer;
-        }
-        
-        public bool Equals(TType x, TType y)
-        {
-            return _comparer(x, y);
-        }
+        public EqualityComparer(Func<TType, TType, bool> comparer) 
+            => _comparer = comparer;
 
-        public int GetHashCode(TType obj)
-        {
-            return obj.GetHashCode();
-        }
+        public bool Equals(TType x, TType y) 
+            => _comparer(x, y);
+
+        public int GetHashCode(TType obj) 
+            => obj.GetHashCode();
     }
 }
