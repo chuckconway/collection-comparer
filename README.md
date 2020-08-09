@@ -4,7 +4,7 @@ The Collection Comparer compares two collection and exposes on opprotunity to ex
 
 
 
-**For example**, I have two collections. One collection is from the database,  a second from the UI.  In the UI the user removes some items and adds some new items. When the user saves the changes to the database we need to reconcile the differences. 
+**For example**, I have two collections. One collection is from the database, a second from the UI.  In the UI the user removes some items and adds some new items. When the user saves the changes we need to reconcile the differences. 
 
 
 
