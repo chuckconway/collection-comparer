@@ -10,6 +10,8 @@
 
     <ItemGroup>
       <PackageReference Include="Microsoft.AspNetCore.Testing" Version="2.2.0" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.0" />
+      <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3" />
     </ItemGroup>
 
 </Project>

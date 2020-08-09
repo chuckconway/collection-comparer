@@ -8,10 +8,8 @@ namespace CollectionComparer
     {
         private readonly IEqualityComparer<TType> _comparer;
 
-        public Comparer(IEqualityComparer<TType> comparer)
-        {
-            _comparer = comparer;
-        }
+        public Comparer(IEqualityComparer<TType> comparer) 
+            => _comparer = comparer;
 
         private IEnumerable<TType> _source;
         private IEnumerable<TType> _collection;
