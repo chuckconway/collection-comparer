@@ -3,3 +3,5 @@
 obj/
 bin/
 CollectionComparer/CollectionComparer.sln.DotSettings.user
+
+src/CollectionComparer.sln.DotSettings.user
