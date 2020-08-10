@@ -1,14 +1,14 @@
 # Conway Collection Comparer
 
-The Collection Comparer compares two collection and exposes on opprotunity to execute code depending if the item is in the source (left) collection, the comparing (right) collection or both collections.
+The Collection Comparer compares two collections and exposes an opportunity to execute code depending on if the item is in the source (left) collection, the comparing (right) collection, or both collections.
 
 
 
-**For example**, I have two collections. One collection is from the database, a second from the UI.  In the UI the user removes some items and adds some new items. When the user saves the changes we need to reconcile the differences. 
+**For example**, I have two collections. One collection is from the database, a second from the UI. In the UI, the user removes some items and adds some new items. When the user saves the changes, we need to reconcile the differences. 
 
 
 
-One possiblity is removing all the items and add them anew. The problem is if you have foregin keys, it quickly becomes challenging. An alternative is discovering the differences and update the database accordingly. This is where the Collection Comparer comes in.
+One possibility is removing all the items and add them anew. The problem is if you have foreign keys, it quickly becomes challenging. An alternative is discovering the differences and update the database accordingly. This is where the Collection Comparer comes in.
 
 
 
